@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\user\\Projects\\capstone-master\\new_capstoneapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-in-rID\\values-in-rID.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\user\\Projects\\capstone-master\\new_capstoneapp\\app\\src\\main\\res\\values-in-rID\\strings.xml",
+                    "from": {
+                        "startLines": "4,12,7,6,10,11,19,18,15,9,17,16,8,13,14,2,3,5",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "166,611,330,274,473,548,1035,975,809,421,928,870,378,695,764,57,116,214",
+                        "endColumns": "46,82,46,54,73,61,70,58,59,50,45,56,41,67,43,57,48,58",
+                        "endOffsets": "208,689,372,324,542,605,1101,1029,864,467,969,922,415,758,803,110,160,268"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,102,185,232,287,361,423,494,553,613,664,710,767,809,877,921,979,1028",
+                        "endColumns": "46,82,46,54,73,61,70,58,59,50,45,56,41,67,43,57,48,58",
+                        "endOffsets": "97,180,227,282,356,418,489,548,608,659,705,762,804,872,916,974,1023,1082"
+                    }
+                }
+            ]
+        }
+    ]
+}

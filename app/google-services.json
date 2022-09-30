@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "998021746342",
+    "project_id": "skripsifirebase-ad0bc",
+    "storage_bucket": "skripsifirebase-ad0bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998021746342:android:4ef0df03e998090fdaee67",
+        "android_client_info": {
+          "package_name": "com.argostock.capstoneapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998021746342-9vckdni0g16i7g1mnon1drlbclf068ph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.argostock.capstoneapp",
+            "certificate_hash": "c55a31a7ea1d14727d5a6732c76827cdf265dc41"
+          }
+        },
+        {
+          "client_id": "998021746342-e5r2htiolntc2kc92m4ba2vu5j934k74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCPu0QUAc5NBfbWMJQiOWoVi9GalaVkQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998021746342-e5r2htiolntc2kc92m4ba2vu5j934k74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

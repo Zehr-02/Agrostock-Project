@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/drawable/bgdasboard.xml" value="0.2515" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/drawable/bgloading.xml" value="0.2515" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/drawable/btn_default.xml" value="0.2515" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/drawable/ic_back.xml" value="0.2515" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/drawable/ic_baseline_arrow_circle_down_24.xml" value="0.2555" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/drawable/ic_baseline_arrow_circle_up_24.xml" value="0.2555" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/drawable/ic_baseline_online_prediction_24.xml" value="0.2555" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/drawable/ic_baseline_photo_camera_24.xml" value="0.2555" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/drawable/ic_baseline_text_snippet_24.xml" value="0.2515" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/drawable/ic_google.xml" value="0.2515" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/drawable/ic_signin_background.xml" value="0.1825" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/layout/activity_camera.xml" value="0.25" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/layout/activity_detail.xml" value="0.25" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/layout/activity_fruits.xml" value="0.25" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/layout/activity_loading.xml" value="0.25" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/layout/activity_news.xml" value="0.25" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/layout/activity_offline_predict.xml" value="0.2" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/layout/fragment_camera.xml" value="0.25" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/layout/item_list.xml" value="0.25" />
+        <entry key="..\:/Program Write/capstone-master/capstoneapp/app/src/main/res/xml/file_paths.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/user/Projects/capstone-master/new_capstoneapp/app/src/main/res/layout/activity_camera.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/user/Projects/capstone-master/new_capstoneapp/app/src/main/res/layout/activity_detail.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/user/Projects/capstone-master/new_capstoneapp/app/src/main/res/layout/activity_fruits.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/user/Projects/capstone-master/new_capstoneapp/app/src/main/res/layout/activity_loading.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/user/Projects/capstone-master/new_capstoneapp/app/src/main/res/layout/activity_main.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/user/Projects/capstone-master/new_capstoneapp/app/src/main/res/layout/activity_offline_predict.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/user/Projects/capstone-master/new_capstoneapp/app/src/main/res/layout/fragment_camera.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/user/Projects/capstone-master/new_capstoneapp/app/src/main/res/layout/item_list.xml" value="0.2975630611372381" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

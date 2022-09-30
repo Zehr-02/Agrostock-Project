@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/buahbusukeditportrait"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6B000000"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <Button
+                android:id="@+id/sign_out_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/agroaja"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/textAgro"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/googlesans_bold"
+            android:src="@drawable/textagro"
+            android:textSize="35sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mode" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark Mode"
+            android:textColor="#BAFFFFFF"
+            android:visibility="gone"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="44dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textAgro" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/bgdasboard"
+        android:orientation="vertical"
+        android:padding="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+        <!--            android:id="@+id/constraintLayout2"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:alignmentMode="alignMargins"-->
+        <!--            android:columnCount="1"-->
+        <!--            android:columnOrderPreserved="false"-->
+        <!--            android:rowCount="3"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent">-->
+
+        <!--            <androidx.cardview.widget.CardView-->
+        <!--                android:id="@+id/berita"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="130dp"-->
+        <!--                android:visibility="gone"-->
+        <!--                android:clickable="false"-->
+        <!--                android:orientation="vertical"-->
+        <!--                app:cardCornerRadius="20dp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintTop_toTopOf="parent">-->
+
+        <!--                <RelativeLayout-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:background="@drawable/gradcolor"-->
+        <!--                    android:orientation="vertical"-->
+        <!--                    android:padding="16dp">-->
+
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/headline"-->
+        <!--                        android:layout_width="wrap_content"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_marginTop="40dp"-->
+        <!--                        android:fontFamily="@font/googlesans_bold"-->
+        <!--                        android:text="Recent Topics"-->
+        <!--                        android:textColor="@color/white"-->
+        <!--                        android:textSize="24sp" />-->
+
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/subhead"-->
+        <!--                        android:layout_width="wrap_content"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_below="@+id/headline"-->
+        <!--                        android:fontFamily="@font/googlesans_bold"-->
+        <!--                        android:text="@string/desc_topic"-->
+        <!--                        android:textColor="@color/white"-->
+        <!--                        android:textSize="12sp" />-->
+
+        <!--                </RelativeLayout>-->
+        <!--            </androidx.cardview.widget.CardView>-->
+        <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+        <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+        <!--            android:id="@+id/constraintLayout3"-->
+        <!--            android:layout_width="167dp"-->
+        <!--            android:layout_height="261dp"-->
+        <!--            android:alignmentMode="alignMargins"-->
+        <!--            android:columnOrderPreserved="false"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="@id/linearLayout2">-->
+
+        <!--            <androidx.cardview.widget.CardView-->
+        <!--                android:id="@+id/menu1"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:clickable="false"-->
+        <!--                android:gravity="center"-->
+        <!--                android:visibility="gone"-->
+        <!--                app:cardCornerRadius="20dp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintTop_toTopOf="parent">-->
+
+        <!--                <LinearLayout-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:background="@drawable/gradcolor"-->
+        <!--                    android:orientation="vertical"-->
+        <!--                    android:padding="16dp">-->
+
+        <!--                    <TextView-->
+        <!--                        android:layout_width="wrap_content"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_marginTop="10dp"-->
+        <!--                        android:fontFamily="@font/googlesans_bold"-->
+        <!--                        android:text="Fruits Info"-->
+        <!--                        android:textColor="@color/white"-->
+        <!--                        android:textSize="24dp" />-->
+
+        <!--                </LinearLayout>-->
+
+        <!--            </androidx.cardview.widget.CardView>-->
+
+        <!--            <androidx.cardview.widget.CardView-->
+        <!--                android:id="@+id/scanner"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:clickable="true"-->
+        <!--                android:visibility="gone"-->
+        <!--                app:cardCornerRadius="20dp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                app:layout_constraintTop_toTopOf="parent">-->
+
+        <!--                <LinearLayout-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:background="@drawable/gradcolor"-->
+        <!--                    android:orientation="vertical"-->
+        <!--                    android:padding="16dp">-->
+
+        <!--                    <LinearLayout-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:orientation="horizontal"-->
+        <!--                        >-->
+
+        <!--                        <ImageView-->
+        <!--                            android:layout_width="60dp"-->
+        <!--                            android:layout_height="60dp"-->
+        <!--                            android:layout_marginTop="8dp"-->
+        <!--                            android:src="@drawable/ic_baseline_online_prediction_24" />-->
+
+        <!--                        <ImageView-->
+        <!--                            android:layout_width="80dp"-->
+        <!--                            android:layout_height="80dp"-->
+        <!--                            android:layout_marginStart="4dp"-->
+        <!--                            android:src="@drawable/vbuah" />-->
+
+        <!--                    </LinearLayout>-->
+
+        <!--                    <TextView-->
+        <!--                        android:layout_width="wrap_content"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_gravity="center"-->
+        <!--                        android:layout_marginTop="2dp"-->
+        <!--                        android:fontFamily="@font/googlesans_bold"-->
+        <!--                        android:gravity="center"-->
+        <!--                        android:text="@string/fruit_detection"-->
+        <!--                        android:textColor="@color/white"-->
+        <!--                        android:textSize="24sp" />-->
+
+        <!--                </LinearLayout>-->
+        <!--            </androidx.cardview.widget.CardView>-->
+
+        <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="32dp"-->
+        <!--            android:layout_weight="1"-->
+        <!--            android:gravity="center"-->
+        <!--            android:text="@string/appwidget_text"-->
+        <!--            android:textAlignment="center"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="16sp"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/offline_scanner"-->
+        <!--            tools:layout_editor_absoluteX="25dp" />-->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/offline_scanner"
+            android:layout_width="354dp"
+            android:layout_height="200dp"
+            android:clickable="true"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradcolor"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/ic_baseline_photo_camera_24" />
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginStart="40dp"
+                        android:src="@drawable/vbuah" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/googlesans_bold"
+                    android:gravity="center"
+                    android:text="@string/foodstuffs_detection"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
